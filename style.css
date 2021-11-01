@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    max-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.logo {
+    width: 100px;
+    filter: brightness(0) invert(1);
+}
+
+.media {
+    width: 300px;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #1F2937;
+}
